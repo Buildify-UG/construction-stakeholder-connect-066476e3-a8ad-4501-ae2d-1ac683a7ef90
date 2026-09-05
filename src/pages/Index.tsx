@@ -16,6 +16,7 @@ import {
   Wrench,
   Megaphone,
 } from 'lucide-react';
+import logo from '@/assets/jenga_connect_logo_f6eaa70f_0.png';
 
 export default function Index() {
   const stakeholders = [
@@ -75,10 +76,8 @@ export default function Index() {
       <header className="border-b border-border bg-background sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <Building2 className="w-5 h-5 text-primary-foreground" />
-            </div>
-            <span className="text-xl font-bold text-foreground">BuildConnect</span>
+            <img src={logo} alt="Jenga Connect" className="w-8 h-8" />
+            <span className="text-xl font-bold text-foreground">Jenga Connect</span>
           </div>
           <nav className="hidden md:flex gap-8">
             <a href="#features" className="text-muted-foreground hover:text-foreground transition">
@@ -102,7 +101,7 @@ export default function Index() {
       <section className="container mx-auto px-4 py-20 md:py-32">
         <div className="max-w-3xl">
           <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Connect Every Voice in Construction
+            Build Stronger Connections in Construction
           </h1>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
             Bring general contractors, subcontractors, suppliers, and teams together on one platform. Eliminate silos, accelerate projects, and build better outcomes.
@@ -252,7 +251,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t border-border pt-8 flex items-center justify-between">
-            <p className="text-sm text-muted-foreground">© 2024 BuildConnect. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">© 2024 Jenga Connect. All rights reserved.</p>
             <div className="flex gap-4">
               <a href="#" className="text-muted-foreground hover:text-foreground transition">Twitter</a>
               <a href="#" className="text-muted-foreground hover:text-foreground transition">LinkedIn</a>
